@@ -1,18 +1,15 @@
 
 import './App.css';
-import PersonIcon from '@mui/icons-material/Person';
 
-import IconButton from '@mui/material/IconButton';
-
+import Header from './Header';
 
 
 function App() {
   return (
     <div className="app">
-      <h2>I am header</h2>
-      <IconButton>
-      <PersonIcon fontSize='large' className='header__icon'/>
-      </IconButton>
+     <Header/>
+      
+
     </div>
   );
 }
