@@ -7,15 +7,19 @@ import Cors from "cors"
 
 const app = express(); 
 const port = process.env.PORT || 8001
-const connection_url=`mongodb+srv://tinder:CkDf4BIKXgFKlux4@cluster0.edbjxc3.mongodb.net/tinderdb?retryWrites=true&w=majority`
+const connection_url='mongodb+srv://tinder:kIPIZW0KR7cJjz6G@cluster0.edbjxc3.mongodb.net/?retryWrites=true&w=majority'
 //Middlewares
-app.use(express.urlencoded({extended: false}))
+// app.use(express.urlencoded({extended: false}))
+app.use(express.json())
 app.use(Cors())
 // DB config
 
 mongoose.connect(connection_url,{
     useNewUrlParser: true,
+    
+   
     useUnifiedTopology: true,
+    
    
 
 
