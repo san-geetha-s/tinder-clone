@@ -1,4 +1,4 @@
-The website will the available on this link:https://tinder-clone-73a99.web.app
+The website will the available on this link:  https://tinder-clone-73a99.web.app
 
 tinder-clone is a MERN project in which the main branch contains frontend using reactjs and the master branch contains the backend setup.
 STEPS:
