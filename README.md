@@ -10,7 +10,7 @@ STEPS:
 4.firebase hosting 
 5.axios base url is changed to the heroku  deployed link
 
-#backend
+# backend
 
 1.mongose connection is established inside server.js using express server and nodejs framework
 2. schema parameters are added in the dbcards to simplify the connection with mongodb
