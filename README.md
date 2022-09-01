@@ -1,3 +1,26 @@
+The website will the available on this link:https://tinder-clone-73a99.web.app
+
+tinder-clone is a MERN project in which the main branch contains frontend using reactjs and the master branch contains the backend setup.
+STEPS:
+# frontend
+
+1. create a react app
+2. header and footer icons were added using material ui
+3.npm tinder-cards is used
+4.firebase hosting 
+5.axios base url is changed to the heroku  deployed link
+
+#backend
+
+1.mongose connection is established inside server.js using express server and nodejs framework
+2. schema parameters are added in the dbcards to simplify the connection with mongodb
+3.values are posted using postman into the database
+4.heroku deployment
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
