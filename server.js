@@ -7,7 +7,7 @@ import Cors from "cors"
 
 const app = express(); 
 const port = process.env.PORT || 8001
-const connection_url='mongodb+srv://tinder:kIPIZW0KR7cJjz6G@cluster0.edbjxc3.mongodb.net/?retryWrites=true&w=majority'
+const connection_url=mongosh "mongodb+srv://cluster0.edbjxc3.mongodb.net/TINDER-CLONE"
 //Middlewares
 // app.use(express.urlencoded({extended: false}))
 app.use(express.json())
